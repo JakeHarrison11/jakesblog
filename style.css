@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(62, 63, 60);
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  h1 {
+    color: rgb(133, 133, 133);
+    text-align: center;
+  }
+
+  h2 {
+      color: rgb(133, 133, 133);
+      text-align: center;
+  }
+  
+  p {
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  a:visited {
+    color:rgb(227, 151, 229);
+  }
+
+  a {
+    color:lightblue
+  }
+
+  img {
+    max-width: 60%;
+    height: auto;
+    
+  }
+
+  .postimg {
+    text-align: center;
+  }
+
+  /*something i stole i guess*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
